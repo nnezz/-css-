@@ -1,0 +1,58 @@
+/* =================초기화=================== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+ul,ol{list-style: none;}
+a{text-decoration: none; color:inherit;}
+/* ========================================= */
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, '맑은 고딕';
+  color:#666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* ========================================= */
+header{
+  background-color: #fff;
+  min-width: 1300px;
+}
+.wrap{
+  width: 1300px;
+  margin:auto;
+}
+header>.wrap{
+  padding:30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb{
+  display: flex;
+}
+header .gnb>li{
+  margin-left: 32px;
+  font-size: 12px;
+  position: relative;
+}
+.gnb>li::after{ /*메뉴밑줄 .on 적용된 요소는 제외*/
+  position: absolute;  
+  top:100%; left:0%;
+  height: 2px; 
+  background-color: #999;
+  width: 0;
+  content: '';
+  transition: all 0.3s ease;
+}
+.gnb>li:hover::after{
+  width: 100%;
+}
+.gnb > .on{
+  color:#41c4b2;
+  font-weight: bold;
+}
+.gnb> .on::after{
+  width: 100%;
+  background-color: #41c4b2;
+}

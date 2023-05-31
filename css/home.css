@@ -1,0 +1,38 @@
+#banner{
+  min-width: 1300px;
+  background-color: #f6f6f6;
+  padding: 100px 0;
+  text-align: center;  
+}
+#banner>h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:#333;
+}
+
+#work{
+ display: flex; 
+ flex-wrap: wrap; /*줄바꿈 허용*/
+
+}
+#work>.box{
+  position: relative;
+  overflow: hidden;
+}
+
+.box>.overlay{
+  position: absolute;
+  top:0; left:0; bottom: 0;right: 0;
+  /*url주소 (../) 상위폴더로 이동*/
+  background: #41c4b3de url(../image/eye.png) no-repeat center ;
+  transform: scale(0) rotate(-720deg);
+  opacity: 0;
+  transition: all 0.5s;
+
+}
+.box:hover>.overlay{
+  transform: scale(1) rotate(0);
+  opacity: 1;
+}
+#work> .box>img{display: block;
+}

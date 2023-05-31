@@ -1,0 +1,21 @@
+footer{
+  background-color: #141414;
+  color: #f6f6f6;
+  min-width: 1300px;
+}
+footer>.wrap{
+  padding:60px 100px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.author>h2{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer .menu{
+  display: flex;  
+}
+footer .menu>ul{
+  margin-left: 60px;
+}

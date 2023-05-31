@@ -1,0 +1,86 @@
+#banner{
+  min-width: 1300px;
+  padding: 100px 0;
+  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../image/banner.jpg) center/cover;
+  text-align: center;
+  color: #fff;
+  
+}
+#banner>h1{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+#banner>p{
+  font-size: 16px;  
+}
+
+#numbers{  
+  background-color: #10c9c3;
+  color: #f6f6f6;
+  min-width: 1300px;
+}
+#numbers > .wrap{
+  padding: 100px 40px;
+  display: flex;
+}
+#numbers .box{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  border-right:2px solid #f6f6f6;  
+}
+#numbers .box:last-child{
+  border-right:none;
+}
+#numbers .box img{margin-right: 20px;}
+#aboutMe{
+  min-width: 1300px;
+  background-color: #f6f6f6;
+}
+#aboutMe>.wrap{
+  display: flex;
+}
+#aboutMe>.wrap>div{
+  width: 50%;
+  height: 520px;
+}
+#aboutMe .largeimg{
+  background-image: url(../image/about_me.jpg);
+}
+#aboutMe .txt{
+  padding: 100px;
+}
+#aboutMe .txt>h1{
+  font-size: 28px;
+  color:#333;
+  
+}
+#aboutMe .txt>p{
+  font-size: 14px;
+  margin:20px 0;
+}
+#project{
+  padding: 80px 0;
+  text-align: center;
+}
+#project>h1{
+  font-size: 28px;
+  color:#333;  
+}
+#project>p{
+  font-size: 14px;
+  margin:20px 0 40px 0;
+}
+#project>.btn{
+  width: 170px;  
+  height: 50px;
+  background-color: #10c9c3;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#project> .btn:hover{
+  background-color: #9edf7c;
+}

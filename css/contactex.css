@@ -1,0 +1,71 @@
+main{
+  min-width: 1300px;
+  background-color: #f6f6f6;
+}
+main>.wrap{
+  padding:100px;
+  
+}
+#txt{
+  
+  width: 350px;
+}
+.box{
+  display: flex;
+  
+  justify-content: space-between;
+}
+#txt>h1{
+  font-size: 28px;
+  font-weight: bold;  
+}
+#txt>p{
+  font-size: 15px;
+  font-weight: normal;
+  padding: 20px 0;
+  line-height: 1.6;
+}
+#txt>p:nth-child(2){
+  padding: 20px 0 ;
+  line-height: 1.6;
+}
+input[type=text]{
+  border: none;
+  background-color: #fff;
+  padding-left:10px
+  
+}
+
+#rbox{  
+  width:640px;  
+  
+}
+#rbox #wrapp{
+  display: flex;
+}
+.email{
+  float: right;
+}
+.email,.name{  
+  width: 49%;
+  height: 40px;    
+}
+.title{  
+  width: 100%;
+  height: 40px;
+}
+.comment{    
+  width: 100%;
+  height: 250px;  
+} 
+.btn{
+  width: 168px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #41c4b2;
+  color:#fff ;
+  margin:40px  0;  
+  cursor: pointer;
+}
+
